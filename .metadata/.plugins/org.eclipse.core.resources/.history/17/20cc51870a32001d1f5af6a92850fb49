@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulario</title>
+</head>
+<body>
+<h1>Preencha o Formulario</h1>
+	<form name="cadastro" action="Dados-cadastrados.jsp">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Digite seu Nome" id="nome"><br></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="rua" placeholder="Rua"><br></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="bairro" placeholder="bairro"><br></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="estado" placeholder="Estado"><br></td>
+			</tr>		
+		</table>
+		<input type="button" value="Salvar" >	
+		<input type='reset'>
+	</form>
+</body>
+</html>

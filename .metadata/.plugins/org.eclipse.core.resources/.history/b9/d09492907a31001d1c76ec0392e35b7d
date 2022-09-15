@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Exericio1</title>
+</head>
+<body>
+<div >
+<h2><%String mensage = "Bem vindo ao exericio 01";
+	out.println(mensage);
+	%></h2>
+	<p>
+	Faça um programa que verifique e mostre os números entre 1000 e<br/>2000(inclusive) que, quando divididos por 11, produzam resto igual a 5.
+	<br/><br/>
+	<%  
+	for(int i=1000;i<2000;i++) {
+	    if (i%11==5)
+	    { 
+	 
+	    	out.println(i + "<br />");
+	    	
+	    }       
+	}
+	
+	%></p>
+</div>
+<div>
+<h1>Exercicio 02</h1>
+<form action="Exe02">
+<input type="submit" Value="Exercicio 02"/>
+</form>
+</div>
+</body>
+</html>

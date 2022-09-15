@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Exercicio02</title>
+
+</head>
+<body>
+	<h1>Exercicio 02</h1>
+	<p><%
+	for(int primeiro = 1; primeiro <=10; primeiro++){
+		for(n = 0; n <=10; n++){
+		int resultado = primeiro * n;	
+		}
+	}
+	%></p>
+</body>
+</html>
