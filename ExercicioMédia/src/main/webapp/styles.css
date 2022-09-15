@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#one {
+	align-items: center;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10em 10em 10em;
+}
+
+#button{
+	    margin-left: 50px;
+	
+}
+#form{
+		border: 5px double;
+		padding: 40px;
+	
+}
